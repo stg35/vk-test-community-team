@@ -1,0 +1,17 @@
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.subs-group {
+	display: flex;
+	gap: 20px;
+
+	&__col {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		align-items: center;
+	}
+}

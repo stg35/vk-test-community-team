@@ -1,0 +1,13 @@
+.filter-container {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	margin: 30px 0 30px 30px;
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		width: 300px;
+	}
+}
